@@ -1,5 +1,6 @@
 #!bin/bash
 echo ""
+pkg install toilet
 figlet -f slant "W T F"|lolcat
 
 sleep 2
@@ -38,6 +39,7 @@ then
 	cd boom
 	cp boom2.zip /sdcard
 	echo -e "\e[94m cheak your storage \e[0m";
+        cd $HOME
         cd WTF_SPAM
         bash boom.sh
 fi
@@ -49,6 +51,7 @@ then
 	cd boom
 	cp boom3.zip /sdcard
 	echo -e "\e[94m cheak your storage \e[0m";
+        cd $HOME
         cd WTF_SPAM
         bash boom.sh
 fi
@@ -59,6 +62,7 @@ then
         cd boom
 	cp boom4.zip /sdcard
 	echo -e "\e[94m cheak your storage \e[0m";
+        cd $HOME
         cd WTF_SPAM
         bash boom.sh
 fi
@@ -69,6 +73,7 @@ then
         cd boom
 	cp boom5.zio /sdcard
 	echo -e "\e[94m cheak your storage \e[0m";
+        cd $HOME
         cd WTF_SPAM
         bash boom.sh
 fi
@@ -79,6 +84,7 @@ then
         cd boom
 	cp boom6.zip /sdcard
 	echo -e "\e[94m cheak your storage \e[0m";
+        cd $HOME
         cd WTF_SPAM
         bash boom.sh
 fi
@@ -89,6 +95,7 @@ then
         cd boom
 	cp boom7.zip /sdcard
 	echo -e "\e[94m cheak your storage \e[0m";
+        cd $HOME
         cd WTF_SPAM
         bash boom.sh
 fi
