@@ -14,8 +14,7 @@ echo -e "\e[91m6.wtf spam \e[0m";
 echo -e "\e[91m7.wtf spam \e[0m";
 echo -e "\e[91m8.update script \e[0m";
 echo ""
-read -p"enter numbar"
-#
+read -p 'Enter Your option >>> ' userinput1;
 
 if [ "${userinput1:-}" = "1" ]
 then
@@ -24,7 +23,6 @@ then
 	cd boom
 	cp boom1.zip /sdcard
 fi
-#
 if [ "${userinput1:-}" = "2" ]
 then
 	cd $HOME
@@ -32,7 +30,6 @@ then
 	cd boom
 	cp boom2.zip /sdcard
 fi
-#
 if [ "${userinput1:-}" = "3" ]
 then
 	cd $HOME
